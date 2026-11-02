@@ -8,7 +8,7 @@ h1 {
     margin: auto;
     background-color: rgb(126, 162, 164);
     border-radius: 200px;
-    border: 6px;
+    border: 12px;
     border-color: black;
     border-style: solid;
     padding-bottom: 50px;
@@ -29,7 +29,7 @@ body {
     background-color: aliceblue;
     margin: 100px;
     border-radius: 10px;
-    border: 6px;
+    border: 12px;
     border-color: black;
     border-style: solid;
     font-size: 32px;
@@ -41,7 +41,7 @@ main {
     padding: 10px;
     margin: 100px;
     border-radius: 10px;
-    border: 6px;
+    border: 12px;
     border-color: black;
     border-style: solid;
 
@@ -57,7 +57,7 @@ main {
     background-color: aliceblue;
     margin: 100px;
     border-radius: 10px;
-    border: 6px;
+    border: 3px;
     border-color: black;
     border-style: solid;
     background-color: black;
@@ -83,7 +83,7 @@ footer {
     margin: 100px;
     margin-top: 0px;
     border-radius: 10px;
-    border: 6px;
+    border: 12px;
     border-color: black;
     border-style: solid;
     background-color: rgb(126, 162, 164);
