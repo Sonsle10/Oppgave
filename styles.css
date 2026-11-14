@@ -20,7 +20,7 @@ body {
     padding: 50px;
 }
 
-.prosjekter {
+.andre_sider {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -103,7 +103,7 @@ h5 {
 
 
 h3 {
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -159,6 +159,115 @@ h2 {
 }
 
 
- img {
-
+.produktfoto {
+    background-image: url("IMG_9789_2.jpg");
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 4 / 3;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    image-rendering: 10px;
+    border-radius: 10px;
+    border-style: solid;
  }
+
+.produktfoto2 {
+    background-image: url("IMG_9843_4.jpg");
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 4 / 3;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    image-rendering: 10px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+
+.produktfoto3 {
+    background-image: url("IMG_9872_6.jpg");
+    width: 80%;
+    max-width: 600px;
+    aspect-ratio: 19 / 20;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    image-rendering: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+ }
+
+.produktfoto4 {
+    background-image: url("IMG_9929_3.jpg");
+    width: 60%;
+    max-width: 400px;
+    aspect-ratio: 4 / 6;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    image-rendering: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+ }
+
+.produktfoto5 {
+    background-image: url("IMG_9921_5.jpg");
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 4 / 3;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    image-rendering: 10px;
+    border-radius: 10px;
+    border-style: solid;
+ }
+
+.produktfoto6 {
+    background-image: url("IMG_9890_4.jpg");
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 4 / 3;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    image-rendering: 10px;
+    border-radius: 10px;
+    border-style: solid;
+ }
+
+ 
+/*ai hjalp meg med å forstå hvordan jeg kan få alle bildene til å ha samme ccs kode*/
+.produktfoto,
+.produktfoto2,
+.produktfoto3,
+.produktfoto4,
+.produktfoto5,
+.produktfoto6 {
+    display: flex;
+    float: left;
+    margin: 100px;
+    vertical-align: auto;
+}
