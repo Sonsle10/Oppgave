@@ -49,19 +49,24 @@ main {
 
 
 .bilde {
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color: aliceblue;
-    margin: 100px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    image-rendering: 10px;
     border-radius: 10px;
-    border: px;
-    border-color: black;
     border-style: solid;
-    background-color: black;
+    
+    /* alt under inni bilde er ai som har hjelpet meg */ /* jeg brukte også ai for å finne ut av hvordan man brukte en komentar*/
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 4 / 3;
+    background-image: url("image.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
 
 em {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -152,3 +157,8 @@ h2 {
     margin: 0px;
     font-size: 10;
 }
+
+
+ img {
+
+ }
