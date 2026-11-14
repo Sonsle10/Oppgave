@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     color: aliceblue;
-    font-size: 50px;
+    font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 1px 2px 3px black;
     -webkit-text-stroke: 3px black;
@@ -270,4 +270,11 @@ h2 {
     float: left;
     margin: 100px;
     vertical-align: auto;
+}
+
+h6 {
+    font-size: 80px;
+    padding: 0px;
+    margin: auto;
+    margin-top: 30px;
 }
