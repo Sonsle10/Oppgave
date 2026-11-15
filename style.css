@@ -1,0 +1,26 @@
+.box {
+    border: 10px solid black;
+    border-radius: 30px;
+    padding: 30px;
+    margin: auto;
+    background-color: rgb(67, 87, 105);
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    border: 8px solid black;
+    min-height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h5 {
+    text-align: center;
+}
