@@ -103,7 +103,7 @@ h5 {
 
 
 h3 {
-    font-size: 100px;
+    font-size: 95px;
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -112,7 +112,7 @@ h3 {
     background-color: aliceblue;
     margin-top: 0px;
     margin-bottom: 20px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     border-color: black;
     border-style: solid;
@@ -161,15 +161,15 @@ h2 {
 
 .produktfoto {
     background-image: url("IMG_9789_2.jpg");
-    width: 100%;
-    max-width: 600px;
+    width: 30%;
+    max-width: 200px;
     aspect-ratio: 4 / 3;
     background-position: center;
     background-repeat: no-repeat;    
     background-size: cover;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 6px;
+    margin-bottom: 5px;
     image-rendering: 10px;
     border-radius: 10px;
     border-style: solid;
@@ -177,15 +177,15 @@ h2 {
 
 .produktfoto2 {
     background-image: url("IMG_9843_4.jpg");
-    width: 100%;
-    max-width: 600px;
+    width: 30%;
+    max-width: 200px;
     aspect-ratio: 4 / 3;
     background-position: center;
     background-repeat: no-repeat;    
     background-size: cover;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 6px;
+    margin-bottom: 5px;
     image-rendering: 10px;
     border-radius: 10px;
     border-style: solid;
@@ -194,15 +194,15 @@ h2 {
 
 .produktfoto3 {
     background-image: url("IMG_9872_6.jpg");
-    width: 80%;
-    max-width: 600px;
+    width: 30%;
+    max-width: 200px;
     aspect-ratio: 19 / 20;
     background-position: center;
     background-repeat: no-repeat;    
     background-size: cover;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 6px;
+    margin-bottom: 5px;
     image-rendering: 10px;
     border-radius: 10px;
     border-style: solid;
@@ -211,15 +211,15 @@ h2 {
 
 .produktfoto4 {
     background-image: url("IMG_9929_3.jpg");
-    width: 60%;
-    max-width: 400px;
+    width: 30%;
+    max-width: 200px;
     aspect-ratio: 4 / 6;
     background-position: center;
     background-repeat: no-repeat;    
     background-size: cover;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 6px;
+    margin-bottom: 5px;
     image-rendering: 10px;
     border-radius: 10px;
     border-style: solid;
@@ -228,15 +228,15 @@ h2 {
 
 .produktfoto5 {
     background-image: url("IMG_9921_5.jpg");
-    width: 100%;
-    max-width: 600px;
+    width: 30%;
+    max-width: 200px;
     aspect-ratio: 4 / 3;
     background-position: center;
     background-repeat: no-repeat;    
     background-size: cover;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 6px;
+    margin-bottom: 5px;
     image-rendering: 10px;
     border-radius: 10px;
     border-style: solid;
@@ -244,15 +244,15 @@ h2 {
 
 .produktfoto6 {
     background-image: url("IMG_9890_4.jpg");
-    width: 100%;
-    max-width: 600px;
+    width: 30%;
+    max-width: 200px;
     aspect-ratio: 4 / 3;
     background-position: center;
     background-repeat: no-repeat;    
     background-size: cover;
     margin: auto;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 6px;
+    margin-bottom: 5px;
     image-rendering: 10px;
     border-radius: 10px;
     border-style: solid;
@@ -273,8 +273,34 @@ h2 {
 }
 
 h6 {
-    font-size: 80px;
+    font-size: 30px;
     padding: 0px;
     margin: auto;
     margin-top: 30px;
+}
+
+.repository {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-style: solid;
+    border: 10px;
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 4 / 3;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    image-rendering: 10px;
+    
+}
+
+img {
+    border-style: solid;
+    
 }
